@@ -1,5 +1,5 @@
 #
-# Copyright (c) 2020-2024 JE668 <https://github.com/JE668>
+# Copyright (c) 2020-2025 JE668 <https://github.com/JE668>
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
@@ -29,7 +29,7 @@ env:
 
 jobs:
   Build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
 
     steps:
     - name: 检验服务器性能 - Check Server Performance
